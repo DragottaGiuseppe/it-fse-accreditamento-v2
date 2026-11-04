@@ -3,31 +3,31 @@
 	<realmCode code="IT"/>
 	<typeId root="2.16.840.1.113883.1.3" extension="POCD_MT000040UV02"/>
 	<templateId root="2.16.840.1.113883.2.9.10.1.1" extension="1.3" assigningAuthorityName="HL7 Italia"/>
-	<id root="2.16.840.1.113883.2.9.2.190.4.4" extension="0051.BTANNN30S60L317Y.20260312081011.D21139" assigningAuthorityName="Regione Sicilia"/>	
-	<code 	code="11502-2"	codeSystem="2.16.840.1.113883.6.1"  codeSystemName="LOINC" displayName="Referto di laboratorio"/> 
-	<title> REFERTO DI LABORATORIO</title>
+	<id root="2.16.840.1.113883.2.9.2.190.4.4" extension="0006.PRVTRZ00A43H501L.20261104081011.D34103" assigningAuthorityName="Regione Sicilia"/>	
+	<code code="11502-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Referto di laboratorio"/> 
+	<title>REFERTO DI LABORATORIO</title>
 	<sdtc:statusCode code="active"/>
-	<effectiveTime value="20260312100809+0100"/>
+	<effectiveTime value="20261104125300+0100"/>
 	<confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25" codeSystemName="HL7 Confidentiality" displayName="Normal"/>
 	<languageCode code="it-IT"/>
-	<setId root="2.16.840.1.113883.2.9.2.190.4.4" extension="0051.BTANNN30S60L317Y.20260312081011.D21139" assigningAuthorityName="Regione Sicilia"/> 
+	<setId root="2.16.840.1.113883.2.9.2.190.4.4" extension="0006.PRVTRZ00A43H501L.20261104081011.D34103" assigningAuthorityName="Regione Sicilia"/> 
 	<versionNumber value="1"/> 
 	<recordTarget typeCode="RCT" contextControlCode="OP">
 		<patientRole classCode="PAT">
-			<id root="2.16.840.1.113883.2.9.4.3.2" extension="BTANNN30S60L317Y" assigningAuthorityName="MEF"/> 
+			<id root="2.16.840.1.113883.2.9.4.3.2" extension="PRVTRZ00A43H501L" assigningAuthorityName="MEF"/> 
 			<addr use="H"> 
 				<country>100</country>
-				<city>PALERMO</city> 
-				<streetAddressLine>VIA AMARILLI 19               </streetAddressLine> 
+				<city>ROMA</city> 
+				<streetAddressLine>VIA DEI FORI ROMANI</streetAddressLine> 
 			</addr> 
 			
 			<patient> 
 				<name> 
-					<family>ABATE</family> 
-					<given>ANTONINA</given> 
+					<family>PROVA</family> 
+					<given>TERZO</given> 
 				</name> 
 				<administrativeGenderCode code="F" codeSystem="2.16.840.1.113883.5.1" codeSystemName="HL7 AdministrativeGender" displayName="FEMMINA"/> 
-				<birthTime value="19301120"/>
+				<birthTime value="20000103"/>
 			</patient>
 		</patientRole>
 	</recordTarget>
@@ -45,7 +45,7 @@
 				</name> 
 			</assignedPerson>
 		</assignedAuthor> 
-		</author> 
+	</author>  
 	<custodian> 
 		<assignedCustodian> 
 			<representedCustodianOrganization>
@@ -83,10 +83,10 @@
 	</legalAuthenticator>
 	<inFulfillmentOf> 
 		<order classCode="ACT" moodCode="RQO"> 
-			<id root="2.16.840.1.113883.2.9.4.3.4" extension="[X12032026001901]" assigningAuthorityName="Ministero delle Finanze"/> 
+			<id root="2.16.840.1.113883.2.9.4.3.4" extension="[190250123432322]" assigningAuthorityName="Ministero delle Finanze"/> 
 			<priorityCode code="R" codeSystem="2.16.840.1.113883.5.7" codeSystemName="HL7 ActPriority" displayName="routine"/>
 		</order> 
-	</inFulfillmentOf> 
+	</inFulfillmentOf>
 	<component>
 		<structuredBody>	
 			<component>
